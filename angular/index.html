@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html  ng-app= "appli">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+		<script type="application/javascript" src="app.js"></script>
+	</head>
+	
+	<body>
+	<header>
+		<h1> my application</h1>
+	</header>
+
+	<div>
+		<a href="#" id = bt >home</a>
+		<a href="#/take1" id = bt >take1</a>
+		<a href="#/take2" id = bt >take2</a>
+	</div>
+	
+    <div>
+        <div ng-view ></div>
+    </div>
+	
+	</body>
+</html>
